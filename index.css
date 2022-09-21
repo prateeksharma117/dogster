@@ -1,0 +1,272 @@
+/* nav bar style*/
+#top_nav
+{
+    background-color: #daac00;
+    padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 500;
+    padding-left: 25px;
+}
+#search_box
+{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 5px 10px 11px 0px #0000005c;
+    position: relative;
+    left: 50px;
+}
+#search_box::placeholder
+{
+    color: white;
+}
+#search_button
+{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border-radius: 0px;
+}
+@media only screen and (max-width:768px)
+{
+    #search_form
+    {
+       margin-bottom: 30px;
+       margin-top: 20px;
+       position: relative;
+       left: -25px;
+    }
+}
+@media only screen and (max-width:768px)
+{
+    #top_nav
+    {
+        padding: 0px;
+    }
+    #logo
+    {
+        width: 200px;
+    }
+}
+
+/* banner */
+#banner
+{
+    background-color: #fcc302;
+    padding-bottom: 100px;
+}
+#banner-text h1
+{
+    color: white;
+    font-size: 50px;
+    margin-top: 200px;
+}
+#banner-text p
+{
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+}
+#banner-btn-1
+{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#banner-btn-2
+{
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+#banner-btn-1:hover
+{
+    background-color: #fcc302;
+    color: white;
+    border: 2px solid white;
+}
+#banner-btn-2:hover
+{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+}
+@media only screen and (max-width:1250px)
+{
+    #banner-text h1
+    {
+        font-size: 30px;
+    }
+    #banner-text p
+    {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width:1000px)
+{
+    #banner-img
+    {
+        position: relative;
+        top: 100px;   
+    }
+}
+
+@media only screen and (max-width:800px)
+{
+    #banner-img
+    {
+        display: none;
+        
+    }   
+    #banner-text h1
+    {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width:500px)
+{ 
+    #banner-btn-1
+    {
+        position: relative;
+        left: 20px;
+    }
+}
+/* 
+services */
+
+#service-text
+{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-img
+{
+    padding: 5%;
+}
+@media only screen and (max-width:800px)
+{
+    #service-img
+    {
+        padding-top: 10%;
+    }
+}
+
+/* counter */
+
+#counter-section
+{
+    background-image:linear-gradient(to right,rgba(255, 173,0,0.6), rgba(255, 173,0,0.6  )),url(./image/eric-ward-ISg37AI2A-s-unsplash.jpg);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+#counter-icon
+{
+    font-size: 30px;
+    color: #00bec9;
+}
+
+/* blog */
+
+#blog
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+#blog-re
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p
+{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.article-detail
+{
+    padding: 15px;
+    border: 2px solid rgba(185,185,185);
+    border-top: 0;
+    box-shadow: 0px 10px 11px 0px #0000005c;
+}
+.article-date
+{
+    font-weight: bolder;
+    color: #00bec9;
+}
+.article-read a
+{
+    color: #00bec9;
+    text-decoration: none;
+    font-weight: bolder;
+}
+/* footer */
+
+#footer-img
+{
+    padding-bottom: 10px;
+}
+#footer-button
+{
+    color: white;
+    font-size: 20px;
+    background-color: #00bec9;
+}
+#footer
+{
+    background-color: #daac00;
+    color: white;
+}
+#footer-about
+{
+    padding-top: 70px;
+}
+#footer-service
+{
+    padding-top: 70px;
+}
+#footer-form
+{
+    padding-top: 70px;
+}
+#footer-about a
+{
+    text-decoration: none;
+    color: white;
+}
+#footer-service a
+{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:500px)
+{
+   #footer-service
+   {
+    padding-right: 80px;
+   }
+}
+@media only screen and (max-width:500px)
+{
+    #footer-form
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:380px)
+{
+    #footer-button
+    {
+        font-size: 12px;
+    }
+}
